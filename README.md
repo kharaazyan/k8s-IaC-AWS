@@ -522,28 +522,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## ⚠️ Disclaimer
-
 <div align="center">
-
-**⚠️ Important Notice**
-
-This project is designed for **learning and demonstration purposes**. For production use, please implement additional security measures, monitoring, and backup strategies.
-
-**🔐 Security First**: Always review and customize security configurations for your specific requirements.
-
-</div>
-
----
-
-<div align="center">
-
-### 🌟 Star this repository if you found it helpful!
-
-[![GitHub stars](https://img.shields.io/github/stars/username/repo?style=social)](https://github.com/username/repo)
-[![GitHub forks](https://img.shields.io/github/forks/username/repo?style=social)](https://github.com/username/repo)
-[![GitHub issues](https://img.shields.io/github/issues/username/repo)](https://github.com/username/repo/issues)
-
-**Made with ❤️ for the DevOps community**
 
 </div> 
