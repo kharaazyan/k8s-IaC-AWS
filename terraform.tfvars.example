@@ -1,0 +1,36 @@
+# AWS Configuration
+aws_region     = "eu-central-1"
+aws_access_key = "your-access-key-here"
+aws_secret_key = "your-secret-key-here"
+
+# Network Configuration
+vpc_cidr           = "10.0.0.0/16"
+pub_subnet_cidr    = "10.0.0.0/24"
+all_inet_subnet    = "0.0.0.0/0"
+public_ip          = true
+
+# Instance Configuration
+instance_type = "t3.medium"
+ami_id        = "ami-02003f9f0fde924ea"  # Ubuntu 22.04 LTS for eu-central-1
+key_pair_name = "your-key-pair-name"
+
+# Storage Configuration
+volume_size = 10
+volume_type = "gp3"
+
+# Security Group Configuration
+# ⚠️ PRODUCTION: Replace with your specific IP addresses
+allowed_ssh_ips = [
+  "0.0.0.0/0"  # Development: Allow all IPs
+  # "YOUR_OFFICE_IP/32",    # Production: Your office IP
+  # "YOUR_HOME_IP/32",      # Production: Your home IP
+  # "YOUR_VPN_IP/32"        # Production: Your VPN IP
+]
+
+allowed_api_ips = [
+  "0.0.0.0/0"  # Development: Allow all IPs
+  # "YOUR_ADMIN_IP/32"      # Production: Admin IP only
+]
+
+# Environment
+environment = "development"       # Options: development, staging, production 
