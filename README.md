@@ -487,20 +487,6 @@ aws ec2 describe-security-groups --group-names k8s-sg
 - **AWS Well-Architected**: [aws.amazon.com/architecture](https://aws.amazon.com/architecture/)
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our contributing guidelines:
-
-### 🚀 How to Contribute
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and test thoroughly
-4. **Commit your changes**: `git commit -m 'Add amazing feature'`
-5. **Push to the branch**: `git push origin feature/amazing-feature`
-6. **Open a Pull Request**
-
 ### 📝 Development Guidelines
 
 - Follow Terraform best practices
